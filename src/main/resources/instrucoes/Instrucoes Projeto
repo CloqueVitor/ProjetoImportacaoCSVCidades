@@ -1,0 +1,13 @@
+Instruções de teste e execução do projeto;
+
+- Para rodar os testes unitarios do projeto é necessário acessar o pacote src/teste/java e executa-los 
+através do botão Run do Esclipse;
+
+- Para executar o projeto, é necessário acessar o pacote src/maisn/java e posteriormente a classe 
+no subpacote br.sc.vitor na classe Main;
+
+-- Para as entradas pode-se utilizar o comando (count *) que irá retornar o total de registros do arquivo CSV interpretado,
+execto o cabeçalho do mesmo.
+
+-- Pode-se utilizar também a entrada (count distinct) + a propriedade desejada (ibge_id, uf, name, capital, lon, lat, no_accents, alternative_names,
+microregion,mesoregion) em todos os casos ele irá retornar o total de valores distintos de cada pripriedade.
