@@ -8,6 +8,10 @@ public class Cidade {
 	private String capital;
 	private String lon;
 	private String lat;
+	private String no_accents;
+	private String alternative_names;
+	private String microregion;
+	private String mesoregion;
 
 	public Cidade() {
 	}
@@ -17,13 +21,12 @@ public class Cidade {
 		this.idIBGE = idIBGE;
 	}
 
-	public Cidade(String uf, String name, String capital, String lon, String lat) {
-		super();
-		this.uf = uf;
-		this.name = name;
-		this.capital = capital;
-		this.lon = lon;
-		this.lat = lat;
+	public String getIdIBGE() {
+		return idIBGE;
+	}
+
+	public void setIdIBGE(String idIBGE) {
+		this.idIBGE = idIBGE;
 	}
 
 	public String getUf() {
@@ -66,12 +69,36 @@ public class Cidade {
 		this.lat = lat;
 	}
 
-	public String getIdIBGE() {
-		return idIBGE;
+	public String getNo_accents() {
+		return no_accents;
 	}
 
-	public void setIdIBGE(String idIBGE) {
-		this.idIBGE = idIBGE;
+	public void setNo_accents(String no_accents) {
+		this.no_accents = no_accents;
+	}
+
+	public String getAlternative_names() {
+		return alternative_names;
+	}
+
+	public void setAlternative_names(String alternative_names) {
+		this.alternative_names = alternative_names;
+	}
+
+	public String getMicroregion() {
+		return microregion;
+	}
+
+	public void setMicroregion(String microregion) {
+		this.microregion = microregion;
+	}
+
+	public String getMesoregion() {
+		return mesoregion;
+	}
+
+	public void setMesoregion(String mesoregion) {
+		this.mesoregion = mesoregion;
 	}
 
 }

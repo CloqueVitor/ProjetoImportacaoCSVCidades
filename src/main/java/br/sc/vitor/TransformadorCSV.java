@@ -28,6 +28,10 @@ public class TransformadorCSV {
 		cidade.setCapital(part[3]);
 		cidade.setLon(part[4]);
 		cidade.setLat(part[5]);
+		cidade.setNo_accents(part[6]);
+		cidade.setAlternative_names(part[7]);
+		cidade.setMicroregion(part[8]);
+		cidade.setMesoregion(part[9]);
 		return cidade;
 	}
 

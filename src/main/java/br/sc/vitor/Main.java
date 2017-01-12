@@ -8,10 +8,10 @@ public class Main {
 
 		int total = 0;
 		Scanner scanner = new Scanner(System.in);
+		System.out.print("Insira o valor da entrada: ");
 		String entrada = scanner.nextLine();
 		ProcessaEntrada processaEntrada = new ProcessaEntrada();
-		total = processaEntrada.processar(entrada);	
+		total = processaEntrada.processar(entrada);
 		System.out.println(total);
 	}
-
 }

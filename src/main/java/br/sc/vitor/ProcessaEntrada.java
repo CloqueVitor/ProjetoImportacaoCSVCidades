@@ -13,7 +13,7 @@ public class ProcessaEntrada {
 		CidadeServico cidadeServico = new CidadeServico();
 
 		List<String> linhas = pegaCSV.ler(
-				"C:\\Users\\vitor\\Desktop\\TesteInvolves\\TesteInvolves2\\src\\main\\resources\\arquivos\\cidades.csv");
+				".\\src\\main\\resources\\arquivos\\cidades.csv");
 		List<Cidade> listaCidade = transformaCSV.transformar(linhas);
 
 		if (entrada.equals("count *")) {
